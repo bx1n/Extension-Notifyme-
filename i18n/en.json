@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": []
 	},
+	"notifyme": "Notify Me",
 	"notifyme-desc": "This is an example extension",
 	"notifyme-i18n-welcome": "Welcome to the localization file of the NotifyMe extension.",
-	"notifyme-notify": "Specialpage NotifyMe",
-	"notifyme-notify-intro": "Welcome to the special page of the NotifyMe extension.",
-	"notifyme": "NotifyMe"
+	"notifyme-notify": "Extension: NotifyMe",
+	"notifyme-notify-intro": "This is a simple extension which notifies the user when the user enter this special page.",
+	"notifyme-welcome": "Welcome to the special page of NotifyMe extension."
 }

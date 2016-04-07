@@ -1,7 +1,6 @@
 <?php
 
-
-class SpecialHelloWorld extends SpecialPage {
+class SpecialNotifyMe extends SpecialPage {
 	public function __construct() {
 		parent::__construct( 'NotifyMe' );
 	}
@@ -13,7 +12,7 @@ class SpecialHelloWorld extends SpecialPage {
 		$out->setPageTitle( $this->msg( 'notifyme-notify' ) );
 
 		$out->addHelpLink( 'How to become a MediaWiki hacker' );
-		$out->addWikiMsg('notifyme-test');
+		$out->addWikiMsg('notifyme-welcome');
 
 
 		$out->addWikiMsg( 'notifyme-notify-intro' );
