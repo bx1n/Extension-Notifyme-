@@ -6,7 +6,7 @@
 	}
 
 	/**
-	 * @class mw.boilerPlate.Foo
+	 * @class mw.notifyMe.Foo
 	 *
 	 * @constructor
 	 */
@@ -32,6 +32,6 @@
 		}
 	};
 
-	mw.boilerPlate.Foo = Foo;
+	mw.notifyMe.Foo = Foo;
 
 }() );

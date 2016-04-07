@@ -1,41 +1,41 @@
 {
-	"name": "BoilerPlate",
+	"name": "NotifyMe",
 	"version": "0.0.0",
 	"author": [
-		"Your Name"
+		"Abhinand"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:BoilerPlate",
-	"descriptionmsg": "boilerplate-desc",
+	"url": "",
+	"descriptionmsg": "notifyme-desc",
 	"license-name": "MIT",
 	"type": "other",
 	"AutoloadClasses": {
-		"BoilerPlateHooks": "BoilerPlate.hooks.php",
-		"SpecialHelloWorld": "specials/SpecialHelloWorld.php"
+		"NotifyMeHooks": "NotifyMe.hooks.php",
+		"SpecialNotifyMe": "specials/SpecialNotifyMe.php"
 	},
 	"config": {
-		"BoilerPlateEnableFoo": true
+		"NotifyMeEnableFoo": true
 	},
 	"ExtensionMessagesFiles": {
-		"BoilerPlateAlias": "BoilerPlate.i18n.alias.php"
+		"NotifyMeAlias": "NotifyMe.i18n.alias.php"
 	},
 	"Hooks": {
 		"NameOfHook": [
-			"BoilerPlateHooks::onNameOfHook"
+			"NotifyMeHooks::onNameOfHook"
 		]
 	},
 	"MessagesDirs": {
-		"BoilerPlate": [
+		"NotifyMe": [
 			"i18n"
 		]
 	},
 	"ResourceModules": {
-		"ext.boilerPlate.foo": {
+		"ext.notifyMe.foo": {
 			"scripts": [
-				"modules/ext.boilerPlate.js",
-				"modules/ext.boilerPlate.foo.js"
+				"modules/ext.notifyMe.js",
+				"modules/ext.notifyMe.foo.js"
 			],
 			"styles": [
-				"modules/ext.boilerPlate.foo.css"
+				"modules/ext.notifyMe.foo.css"
 			],
 			"messages": [],
 			"dependencies": []
@@ -43,10 +43,10 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteExtPath": "BoilerPlate"
+		"remoteExtPath": "NotifyMe"
 	},
 	"SpecialPages": {
-		"HelloWorld": "SpecialHelloWorld"
+		"NotifyMe": "SpecialNotifyMe"
 	},
 	"manifest_version": 1
 }

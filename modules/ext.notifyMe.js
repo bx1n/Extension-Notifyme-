@@ -1,10 +1,10 @@
 ( function () {
 
 	/**
-	 * @class mw.boilerPlate
+	 * @class mw.notifyMe
 	 * @singleton
 	 */
-	mw.boilerPlate = {
+	mw.notifyMe = {
 	};
 
 }() );

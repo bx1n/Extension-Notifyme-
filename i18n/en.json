@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": []
 	},
-	"boilerplate-desc": "This is an example extension",
-	"boilerplate-i18n-welcome": "Welcome to the localization file of the BoilerPlate extension.",
-	"boilerplate-helloworld": "Hello world!",
-	"boilerplate-helloworld-intro": "Welcome to the \"Hello world\" special page of the BoilerPlate extension.",
-	"helloworld": "Hello world"
+	"notifyme-desc": "This is an example extension",
+	"notifyme-i18n-welcome": "Welcome to the localization file of the NotifyMe extension.",
+	"notifyme-notify": "Specialpage NotifyMe",
+	"notifyme-notify-intro": "Welcome to the special page of the NotifyMe extension.",
+	"notifyme": "NotifyMe"
 }

@@ -20,11 +20,11 @@ class SpecialHelloWorld extends SpecialPage {
 	public function execute( $sub ) {
 		$out = $this->getOutput();
 
-		$out->setPageTitle( $this->msg( 'boilerplate-helloworld' ) );
+		$out->setPageTitle( $this->msg( 'notifyme-helloworld' ) );
 
 		$out->addHelpLink( 'How to become a MediaWiki hacker' );
 
-		$out->addWikiMsg( 'boilerplate-helloworld-intro' );
+		$out->addWikiMsg( 'notifyme-helloworld-intro' );
 	}
 
 	protected function getGroupName() {
