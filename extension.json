@@ -10,7 +10,8 @@
 	"type": "other",
 	"AutoloadClasses": {
 		"NotifyMeHooks": "NotifyMe.hooks.php",
-		"SpecialNotifyMe": "specials/SpecialNotifyMe.php"
+		"SpecialNotifyMe": "specials/SpecialNotifyMe.php",
+		"EchoNotifyMeFormatter": "includes/formatter/EchoNotifyMeFormatter.php"
 	},
 	"config": {
 		"NotifyMeEnableFoo": true
@@ -19,8 +20,11 @@
 		"NotifyMeAlias": "NotifyMe.i18n.alias.php"
 	},
 	"Hooks": {
-		"NameOfHook": [
-			"NotifyMeHooks::onNameOfHook"
+		"BeforeCreateEchoEvent": [
+			"NotifyMeHooks::onBeforeCreateEchoEvent"
+		],
+		"EchoGetDefaultNotifiedUsers": [
+			"NotifyMeHooks::onEchoGetDefaultNotifiedUsers"
 		]
 	},
 	"MessagesDirs": {

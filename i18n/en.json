@@ -3,9 +3,17 @@
 		"authors": []
 	},
 	"notifyme": "Notify Me",
+	"notifyme-notification-user-notify": "New notification",
 	"notifyme-desc": "This is an example extension",
 	"notifyme-i18n-welcome": "Welcome to the localization file of the NotifyMe extension.",
 	"notifyme-notify": "Extension: NotifyMe",
 	"notifyme-notify-intro": "This is a simple extension which notifies the user when the user enter this special page.",
-	"notifyme-welcome": "Welcome to the special page of NotifyMe extension."
+	"notifyme-notify-user": "Notification from formatter.",
+	"notifyme-welcome": "Welcome to the special page of NotifyMe extension.",
+	"notifyme-notification-title": "notifyMe notification title.",
+	"notifyme-notification-flyout": "You have entered the special page.",
+	"notifyme-email-subject": "Subject",
+	"notifyme-email-body-batch-message": "The user hav enetered the notifyme special page.",
+	"echo-category-title-user-notify": "You visited this page.",
+	"echo-pref-tooltip-user-notify": "Notifies the user when he visit NotifyMe special page."
 }
