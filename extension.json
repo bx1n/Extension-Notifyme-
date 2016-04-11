@@ -10,8 +10,7 @@
 	"type": "other",
 	"AutoloadClasses": {
 		"NotifyMeHooks": "NotifyMe.hooks.php",
-		"SpecialNotifyMe": "specials/SpecialNotifyMe.php",
-		"EchoNotifyMeFormatter": "includes/formatter/EchoNotifyMeFormatter.php"
+		"SpecialNotifyMe": "specials/SpecialNotifyMe.php"
 	},
 	"config": {
 		"NotifyMeEnableFoo": true

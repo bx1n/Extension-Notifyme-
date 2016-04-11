@@ -2,20 +2,19 @@
 
 
 class NotifyMeHooks {
-
-	public static function onBeforeCreateEchoEvent( &$notifications, &$notificationCategories )  {
+	public static function onBeforeCreateEchoEvent( &$notifications )  {
 		$notifications['notifyme-user-notify'] = array(
 		    'category' => 'system',
 		    'section' => 'alert',
 		    'primary-link' => array(
-			'message' => 'notifyme-notification-user-notify',
-			'destination' => 'new-notify'
+			'message' => 'notifyme-primary-message',
+		        'destination' => 'new-notify'
 		    ),
-		    'formatter-class' => 'EchoNotificationFormatter     ',
+		    'formatter-class' => 'EchoBasicFormatter',
 		    'title-message' => 'notifyme-notification-title',
-		    'title-params' => array( 'agent' ),
+		    'title-params' => array( 'agent', 'title' ),
 		    'flyout-message' => 'notifyme-notification-flyout',
-		    'flyout-params' => array( 'agent' ),
+		    'flyout-params' => array( 'agent', 'title' ),
 		    'email-subject-message' => 'notifyme-email-subject',
 		    'email-subject-params' => array( 'agent' ),
 		    'email-body-batch-message' => 'notifyme-email-batch-body',
@@ -37,4 +36,6 @@ class NotifyMeHooks {
 		return true;
 	}
 }
+
+
 

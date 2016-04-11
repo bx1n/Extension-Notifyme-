@@ -8,30 +8,27 @@ class SpecialNotifyMe extends SpecialPage {
 
 	public function execute($sub) {
 		$out = $this->getOutput();
-
 		$out->setPageTitle($this->msg('notifyme-notify'));
 
 		$out->addHelpLink('How to become a MediaWiki hacker');
 		$out->addWikiMsg('notifyme-welcome');
 
-
 		$out->addWikiMsg('notifyme-notify-intro');
-
-		EchoEvent::create(
-		    array(
+		$user = User::newFromId(1);
+		EchoEvent::create( array(
 			'type' => 'notifyme-user-notify',
-                        'extra' => array(
-	                        'notify-user-id' => $this ->getUser() ->getId()
+			'title' => $this ->getPageTitle(),
+			'extra' => array(
+			        'notify-user-id' => $this ->getUser() ->getId()
 			),
-                        'agent' => $this->getUser(),
-		    )
-		);
+			'agent' => $user,
+		));
 
 	}
 
-		protected function getGroupName() {
-			return 'other';
-		}
+	protected function getGroupName() {
+		return 'other';
+	}
 
 }
 
