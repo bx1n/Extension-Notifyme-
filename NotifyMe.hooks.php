@@ -7,7 +7,7 @@ class NotifyMeHooks {
 		    'category' => 'system',
 		    'section' => 'alert',
 		    'primary-link' => array(
-			'message' => 'notifyme-primary-message',
+		        'message' => 'notifyme-primary-message',
 		        'destination' => 'new-notify'
 		    ),
 		    'formatter-class' => 'EchoBasicFormatter',
@@ -21,7 +21,6 @@ class NotifyMeHooks {
 		    'email-body-batch-params' =>  array( 'agent' ),
 		);
 		return true;
-
 	}
 
 	public static function onEchoGetDefaultNotifiedUsers( $event, &$users ) {
