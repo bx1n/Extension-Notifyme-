@@ -3,8 +3,13 @@
 
 class NotifyMeHooks {
 	public static function onBeforeCreateEchoEvent( &$notifications, $notificationCategories )  {
+		$notificationCategories['user-notify'] = array(
+		    'priority' => 3,
+		    'tooltip' => 'echo-pref-tooltip-user-notify',
+		);
+
 		$notifications['user-notify'] = array(
-		    'category' => 'system',
+		    'category' => 'user-notify',
 		    'section' => 'alert',
 		    'primary-link' => array(
 		        'message' => 'notifyme-primary-message',

@@ -17,9 +17,9 @@ class SpecialNotifyMe extends SpecialPage {
 
 		$user = User::newFromId(-1);
 		EchoEvent::create( array(
-			'type' => 'notifyme-user-notify',
+			'type' => 'user-notify',
 			'extra' => array(
-			        'notify-user-id' => $this ->getUser() ->getId()
+			    'notify-user-id' => $this ->getUser() ->getId()
 			),
 			'agent' => $user,
 		));

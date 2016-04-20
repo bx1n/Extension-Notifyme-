@@ -2,18 +2,20 @@
 	"@metadata": {
 		"authors": []
 	},
-	"notifyme": "Notify Me",
+	"notifyme": "NotifyMe",
 	"notifyme-primary-message": "Notification primary message.",
 	"notifyme-desc": "This is an example extension",
 	"notifyme-i18n-welcome": "Welcome to the localization file of the NotifyMe extension.",
 	"notifyme-notify": "Extension: NotifyMe",
 	"notifyme-notify-intro": "This is a simple extension which notifies the user when the user enter this special page.",
 	"notifyme-welcome": "Welcome to the special page of NotifyMe extension.",
-	"notifyme-notification-title": "NotifyMe notification.",
+	"notifyme-user-notification": "NotifyMe notification.",
+	"notifyme-notification-title": "A user have visited special page.",
 	"notifyme-notification-flyout": "You have entered the special page.",
 	"notifyme-email-subject": "Extension: NotifyMe",
 	"notifyme-email-batch-body": "User have entered the notifyme special page.",
 	"notifyme-primary-flyout": "Flyout notification.",
-	"echo-category-title-user-notify": "You visited this page.",
-	"echo-pref-tooltip-user-notify": "Notifies the user when he visit NotifyMe special page."
+	"echo-pref-tooltip-user-notify": "Notification title.",
+	"echo-pref-tooltip-user-notify": "Notifies the user when he visit NotifyMe special page.",
+	"notification-header-user-notify": "Notification for usre entry."
 }
